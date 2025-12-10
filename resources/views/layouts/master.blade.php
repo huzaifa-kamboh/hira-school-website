@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hira Model High School Mehrabpur</title>
+  <title>@yield('title', 'Hira Model High School Mehrabpur')</title>
   
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -600,7 +600,7 @@
   <!-- MAIN NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid navbar-container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img src="/images/hira-logo.png" alt="Hira School Logo" class="navbar-logo" />
         <div class="school-name">
           <span class="school-main-name">Hira Model High School Mehrabpur</span>
@@ -623,7 +623,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item">
-            <a class="nav-link active" href="/">
+            <a class="nav-link active" href="/home">
               <i class="fas fa-home"></i>
               <span>Home</span>
             </a>
