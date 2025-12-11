@@ -566,7 +566,7 @@
 </head>
 <body>
   <!-- TOP INFO BAR - FIXED VERTICAL CENTERING -->
-  <div class="top-info-bar">
+  <!-- <div class="top-info-bar">
     <div class="container-fluid navbar-container">
       <div class="top-info-content">
         <div class="contact-info">
@@ -595,7 +595,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- MAIN NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light">
@@ -669,6 +669,12 @@
     <!-- FOOTER -->
     <div class="demo-footer mt-5">
       <p>© {{ date('Y') }} Hira Model High School Mehrabpur<br>All Rights Reserved</p>
+      <p>
+        Made with <span style="color: red;">&#x2764;&#xFE0F;</span> by 
+        <a href="https://www.facebook.com/huzaifa.nadeem.kamboh" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+          Huzaifa Nadeem Kamboh
+        </a>
+      </p>
     </div>
   </div>
 
