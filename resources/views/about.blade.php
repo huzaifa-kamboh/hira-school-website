@@ -15,7 +15,7 @@
                     </ol>
                 </nav>
                 <h1 class="display-5 fw-bold mb-3">About Our School</h1>
-                <p class="lead text-muted mb-0">A Legacy of Excellence in Education Since 1999</p>
+                <p class="lead text-muted mb-0">A Legacy of Excellence in Education Since 2010</p>
             </div>
         </div>
     </div>
@@ -27,17 +27,20 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="about-image rounded overflow-hidden shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1464&q=80" 
+                 <img src="{{ asset('images/school-building.jpg') }}" 
                          alt="Hira Model High School Building" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-6">
                 <span class="badge bg-primary mb-3">Our Story</span>
                 <h2 class="mb-4">Welcome to Hira Model High School</h2>
-                <p class="mb-4">Established in 1999, Hira Model High School Mehrabpur is a premier educational institution under the patronage of <strong>Iqra Foundation Sindh</strong>. For over two decades, we have been committed to providing quality education that blends academic excellence with moral and ethical values.</p>
-                
-                <p class="mb-4">Located on Ghalla Mandi Road, Mehrabpur, our school has grown from a small institution to a center of educational excellence, nurturing thousands of students who have gone on to become successful professionals, entrepreneurs, and responsible citizens.</p>
-                
+                <p class="mb-4">
+                    Established in 2010, Hira Model High School Mehrabpur has consistently delivered high-quality education with a strong focus on academic excellence, character building, and holistic student development. Over the years, the school has upheld its mission of nurturing confident, capable, and responsible learners.
+                </p>
+
+                <p class="mb-4">
+                    Over the years, our institution has grown into a trusted center of learning, providing a supportive environment where students are encouraged to explore their potential, develop essential skills, and strive for success in both academics and co-curricular activities.
+                </p>
                 <div class="row mt-4">
                     <div class="col-sm-6 mb-3">
                         <div class="d-flex align-items-center">
@@ -46,7 +49,7 @@
                             </div>
                             <div class="flex-grow-1 ms-3">
                                 <h5 class="mb-1">Established</h5>
-                                <p class="mb-0 text-muted">1999</p>
+                                <p class="mb-0 text-muted">2010</p>
                             </div>
                         </div>
                     </div>
@@ -54,6 +57,17 @@
                         <div class="d-flex align-items-center">
                             <div class="flex-shrink-0">
                                 <i class="fas fa-map-marker-alt text-primary fs-4"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-1">Our Slogan</h5>
+                                <p class="mb-0 text-muted">Come and Learn, Go and Lead</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-user-graduate text-primary fs-4"></i>
                             </div>
                             <div class="flex-grow-1 ms-3">
                                 <h5 class="mb-1">Location</h5>
@@ -64,22 +78,11 @@
                     <div class="col-sm-6 mb-3">
                         <div class="d-flex align-items-center">
                             <div class="flex-shrink-0">
-                                <i class="fas fa-user-graduate text-primary fs-4"></i>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <h5 class="mb-1">Affiliation</h5>
-                                <p class="mb-0 text-muted">Board of Secondary Education</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 mb-3">
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
                                 <i class="fas fa-building text-primary fs-4"></i>
                             </div>
                             <div class="flex-grow-1 ms-3">
-                                <h5 class="mb-1">Project of</h5>
-                                <p class="mb-0 text-muted">Iqra Foundation Sindh</p>
+                                <h5 class="mb-1">Registration</h5>
+                                <p class="mb-0 text-muted">School Education and Literacy Department Governemnt of Sindh</p>
                             </div>
                         </div>
                     </div>
@@ -95,7 +98,7 @@
         <div class="row">
             <div class="col-lg-12 text-center mb-5">
                 <span class="badge bg-secondary mb-3">Our Philosophy</span>
-                <h2 class="mb-3">Mission & Vision</h2>
+                <h2 class="mb-3" style="color: white">Mission & Vision</h2>
             </div>
         </div>
         <div class="row g-4">
@@ -106,12 +109,14 @@
                             <i class="fas fa-bullseye fa-3x text-primary"></i>
                         </div>
                         <h3 class="card-title mb-3">Our Mission</h3>
-                        <p class="card-text">To provide a holistic educational environment that fosters intellectual growth, moral development, and social responsibility. We aim to empower students with knowledge, skills, and values to become lifelong learners and responsible global citizens.</p>
+                        <p class="card-text">
+                            To create a supportive learning environment that builds strong academics, good character, and a sense of responsibility. <br>With our slogan <strong>“Come and Learn, Go and Lead”</strong> we aim to shape students into confident individuals who bring positive change to society.
+                        </p>
                         <ul class="text-start mt-4">
-                            <li>Provide quality education accessible to all</li>
-                            <li>Foster critical thinking and creativity</li>
-                            <li>Develop moral and ethical values</li>
-                            <li>Prepare students for future challenges</li>
+                            <li>Provide quality education for every student</li>
+                            <li>Promote creative thinking and problem-solving</li>
+                            <li>Build strong moral, ethical, and social values</li>
+                            <li>Prepare students to lead and succeed in real-life challenges</li>
                         </ul>
                     </div>
                 </div>
@@ -151,7 +156,7 @@
             <div class="col-lg-4 text-center mb-4 mb-lg-0">
                 <div class="director-profile">
                     <div class="director-image mb-4">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1374&q=80" 
+                        <img src="{{ asset('images/director.jpeg') }}" 
                              alt="Naeem Ahmed Kamboh - Director" class="img-fluid rounded-circle shadow" style="width: 250px; height: 250px; object-fit: cover;">
                     </div>
                     <h4 class="mb-1">Naeem Ahmed Kamboh</h4>
@@ -170,7 +175,7 @@
                 </div>
                 
                 <div class="director-message-content">
-                    <h3 class="mb-4">"Education is the most powerful weapon which you can use to change the world." - Nelson Mandela</h3>
+                    <h4 class="mb-4">"Abu Hurairah reported the Prophet صلی ‌اللہ ‌علیہ ‌وسلم as saying: If anyone pursues a path in search of knowledge, Allah will thereby make easy for him a path to paradise; and he who is made slow by his actions will not be speeded by his genealogy." — Sunan Abi Dawud 3643</h4>
                     
                     <p class="mb-4">Dear Students, Parents, and Well-wishers,</p>
                     
@@ -212,168 +217,8 @@
     </div>
 </section>
 
-<!-- Core Values -->
-<section class="core-values py-5 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center mb-5">
-                <span class="badge bg-warning text-dark mb-3">Our Values</span>
-                <h2 class="mb-3">Core Values</h2>
-                <p class="text-muted">The principles that guide everything we do</p>
-            </div>
-        </div>
-        
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-3">
-                <div class="value-card text-center p-4 rounded h-100">
-                    <div class="value-icon mb-3">
-                        <i class="fas fa-gem fa-2x text-primary"></i>
-                    </div>
-                    <h5 class="mb-3">Excellence</h5>
-                    <p class="text-muted small">We strive for the highest standards in academics, character, and conduct, encouraging students to achieve their full potential.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="value-card text-center p-4 rounded h-100">
-                    <div class="value-icon mb-3">
-                        <i class="fas fa-handshake fa-2x text-success"></i>
-                    </div>
-                    <h5 class="mb-3">Integrity</h5>
-                    <p class="text-muted small">We uphold honesty, fairness, and ethical behavior in all our actions, building trust within our school community.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="value-card text-center p-4 rounded h-100">
-                    <div class="value-icon mb-3">
-                        <i class="fas fa-users fa-2x text-info"></i>
-                    </div>
-                    <h5 class="mb-3">Respect</h5>
-                    <p class="text-muted small">We value diversity, treat everyone with dignity, and foster an environment of mutual respect among students, staff, and parents.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="value-card text-center p-4 rounded h-100">
-                    <div class="value-icon mb-3">
-                        <i class="fas fa-heart fa-2x text-danger"></i>
-                    </div>
-                    <h5 class="mb-3">Compassion</h5>
-                    <p class="text-muted small">We cultivate empathy, kindness, and concern for others, encouraging students to become caring and socially responsible individuals.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- School Facilities -->
-<section class="facilities py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center mb-5">
-                <span class="badge bg-info mb-3">Infrastructure</span>
-                <h2 class="mb-3">School Facilities</h2>
-            </div>
-        </div>
-        
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-3">
-                <div class="facility-card text-center p-4 rounded shadow-sm h-100">
-                    <div class="facility-icon mb-3">
-                        <i class="fas fa-flask fa-2x text-primary"></i>
-                    </div>
-                    <h5>Science Laboratories</h5>
-                    <p class="small text-muted">Well-equipped physics, chemistry, and biology labs for practical learning and experiments.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="facility-card text-center p-4 rounded shadow-sm h-100">
-                    <div class="facility-icon mb-3">
-                        <i class="fas fa-desktop fa-2x text-success"></i>
-                    </div>
-                    <h5>Computer Lab</h5>
-                    <p class="small text-muted">Modern computer lab with internet access for digital literacy and IT education.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="facility-card text-center p-4 rounded shadow-sm h-100">
-                    <div class="facility-icon mb-3">
-                        <i class="fas fa-book fa-2x text-warning"></i>
-                    </div>
-                    <h5>Library</h5>
-                    <p class="small text-muted">Extensive collection of books, reference materials, and digital resources for students.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="facility-card text-center p-4 rounded shadow-sm h-100">
-                    <div class="facility-icon mb-3">
-                        <i class="fas fa-futbol fa-2x text-danger"></i>
-                    </div>
-                    <h5>Sports Ground</h5>
-                    <p class="small text-muted">Spacious playground for cricket, football, volleyball, and other outdoor activities.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Timeline -->
-<section class="timeline-section py-5 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center mb-5">
-                <span class="badge bg-dark mb-3">Our Journey</span>
-                <h2 class="mb-3">Milestones & Achievements</h2>
-            </div>
-        </div>
-        
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-date">1999</div>
-                <div class="timeline-content">
-                    <h5>School Foundation</h5>
-                    <p>Hira Model High School established under Iqra Foundation Sindh with initial enrollment of 50 students.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2005</div>
-                <div class="timeline-content">
-                    <h5>First Batch Graduation</h5>
-                    <p>Our first batch of matriculation students graduates with excellent board results.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2010</div>
-                <div class="timeline-content">
-                    <h5>Infrastructure Expansion</h5>
-                    <p>New building constructed with modern classrooms and science laboratories.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2015</div>
-                <div class="timeline-content">
-                    <h5>Computer Lab Establishment</h5>
-                    <p>State-of-the-art computer lab installed with 30 computers and internet facility.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2020</div>
-                <div class="timeline-content">
-                    <h5>25+ Awards Recognition</h5>
-                    <p>School receives multiple awards for academic excellence and community service.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2024</div>
-                <div class="timeline-content">
-                    <h5>25 Years of Excellence</h5>
-                    <p>Celebrating 25 years of providing quality education to the community.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Call to Action -->
-<section class="cta-section py-5 bg-primary text-white">
+<!-- <section class="cta-section py-5 bg-primary text-white">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
@@ -381,7 +226,7 @@
                 <p class="mb-0">Visit our campus or contact us to discover how Hira School can benefit your child's education.</p>
             </div>
             <div class="col-lg-4 text-lg-end">
-                <a href="/contact" class="btn btn-light btn-lg px-4">
+                <a href="https://maps.app.goo.gl/FhV1V2Lhw3YQNfzx9" target="_blank" class="btn btn-light btn-lg px-4">
                     <i class="fas fa-map-marker-alt me-2"></i>Visit Campus
                 </a>
                 <a href="/admission" class="btn btn-outline-light btn-lg px-4 ms-2">
@@ -390,7 +235,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <style>
     /* About Page Specific Styles */
@@ -483,7 +328,7 @@
         border-left: 4px solid var(--primary-color);
     }
     
-    .director-message-content h3 {
+    .director-message-content h4 {
         font-style: italic;
         color: var(--dark-color);
     }

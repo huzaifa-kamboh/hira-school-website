@@ -144,7 +144,7 @@
                         <i class="fas fa-trophy"></i>
                     </div>
                     <h3 class="stat-number" data-count="120">100+</h3>
-                    <p class="stat-label">Awards Won</p>
+                    <p class="stat-label">Awards We Have Won</p>
                     <div class="stat-progress">
                         <div class="progress">
                             <div class="progress-bar gradient-4-bg" style="width: 100%"></div>
@@ -162,7 +162,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="school-image rounded overflow-hidden shadow-lg">
-                    <img src="{{ asset('images/about-school-pic.png') }}" 
+                    <img src="{{ asset('images/about-school-pic.jpg') }}" 
                          alt="Hira Model High School Campus" class="img-fluid">
                 </div>
             </div>
@@ -629,7 +629,7 @@
         background-color: white;
         transform: scale(1.2);
     }
-    
+  
     /* Colorful Stats Section */
     .stats-section {
         background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
